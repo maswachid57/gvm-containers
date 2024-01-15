@@ -199,7 +199,7 @@ openvas-redis:
     ## You can override this one, or global.imageRegistry
     registry: "docker.io"
     repository: bitnami/redis
-    tag: "18.0.4"
+    tag: "7.2.4"
   configmap: |-
     # Default redis chart values:
     # Enable AOF https://redis.io/topics/persistence#append-only-file
