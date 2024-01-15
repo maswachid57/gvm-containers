@@ -23,6 +23,6 @@ dependencies:
     alias: gvmd-db
 
   - name: redis
-    version: ~18.0.4
+    version: ~7.2.4
     repository: https://charts.bitnami.com/bitnami
     alias: openvas-redis
