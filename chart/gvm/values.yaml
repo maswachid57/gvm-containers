@@ -175,7 +175,7 @@ gvmd-db:
     ## You can override this one, or global.imageRegistry
     registry: "docker.io"
     repository: admirito/gvm-postgres
-    tag: "20"
+    tag: "22"
   volumePermissions:
     enabled: false
   securityContext:
@@ -199,7 +199,7 @@ openvas-redis:
     ## You can override this one, or global.imageRegistry
     registry: "docker.io"
     repository: bitnami/redis
-    tag: "6.0"
+    tag: "18.0.4"
   configmap: |-
     # Default redis chart values:
     # Enable AOF https://redis.io/topics/persistence#append-only-file
